@@ -8,7 +8,7 @@ I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-R
 
 ### Set Up Your Workspace
 - Create a catkin workspace if you don't have one already.
-```
+``` LINUX
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
