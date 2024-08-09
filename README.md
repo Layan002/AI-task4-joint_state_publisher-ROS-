@@ -1,5 +1,5 @@
 # About? 
-This task is to control the robot arm using ROS1 joint_state_publisher.Joint state publisher is one of the ROS packages that is commonly used to interact with each joint of the robot. The package contains the joint_state_publisher node, which will find the nonfixed joints from the URDF model and publish the joint state values of each joint in the sensor_msgs/JointState message format.
+This task is to control the robot arm using ROS1 joint_state_publisher. Joint state publisher is one of the ROS packages that is commonly used to interact with each joint of the robot. The package contains the joint_state_publisher node, which will find the nonfixed joints from the URDF model and publish the joint state values of each joint in the sensor_msgs/JointState message format.
 
 # Steps
 
@@ -18,3 +18,14 @@ source devel/setup.bash
 > A catkin workspace is a directory in the Robot Operating System (ROS) where you can build, develop, and manage your ROS packages. Catkin is the official build system of ROS, and it is used to compile and link ROS packages.
 
 <img src= "https://github.com/user-attachments/assets/64a55aed-4a21-4a2f-91dd-fa4a3ff6e29d" alt= "img" width = 800>
+
+### Create a URDF Model for the Robot Arm 
+Define your robot arm in a URDF (Unified Robot Description Format) file. This file describes the physical properties of the robot, including joints and links.
+> [!NOTE]
+> URDF (Unified Robot Description Format) is an XML format used in ROS (Robot Operating System) to describe the physical configuration of a robot. It includes details about the robot's joints, links, sensors, actuators, and other physical properties. URDF files are essential for simulating and visualizing robots in ROS and for controlling robot movements in real environments.
+
+> [!IMPORTANT]
+> I will convert SolidWorks assembly to URDF
+
+> [!NOTE]
+> While using SolidWorks assembly it is important not to setting limits to the joints and links, otherwise, errors will raise. 
