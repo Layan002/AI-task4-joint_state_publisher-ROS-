@@ -211,6 +211,10 @@ std_msgs
      <selfCollide>true</selfCollide>
 </gazebo>
 ```
+<img src= "https://github.com/user-attachments/assets/b0d42be8-a3d8-42a4-aabb-022bb1513d92" alt= "img" width = 500>
+
+<img src= "https://github.com/user-attachments/assets/73a1908e-b38e-4af5-94d0-b0784ff834e1" alt= "img" width = 500>
+
 
 # Troubleshooting
 
