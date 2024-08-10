@@ -85,6 +85,10 @@ cd moveit_ws
 ```
  catkin init
 ```
+
+<img src= "https://github.com/user-attachments/assets/32d28915-629d-4237-9cdb-65eeb3cc7946" alt= "img" width = 400>
+
+
 - Go to the catkin workspace directory that you created if not already in it.
 ```
  cd ~/moveit_ws
