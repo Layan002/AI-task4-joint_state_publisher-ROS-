@@ -97,11 +97,16 @@ cd moveit_ws
 ```
  catkin build 
 ```
+<img src= "https://github.com/user-attachments/assets/fee220e0-21af-4d41-972f-5b5ea8b11e41" alt= "img" width = 400>
+
+
 - Source the “setup.bash” file automatically generated in your catkin workspace’s “devel” folder 
 If you are already in your catkin workspace:
 ```
  source devel/setup.bash
 ```
+<img src= "https://github.com/user-attachments/assets/3e8bfcdc-ef3a-4522-be3a-999706fdf955" alt= "img" width = 400>
+
 If you are not in your catkin workspace, then give full path:
 ```
 source ~/moveit_ws/devel/setup.bash
