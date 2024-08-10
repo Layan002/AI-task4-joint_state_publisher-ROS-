@@ -2,6 +2,9 @@
 This task is to control the robot arm using ROS1 joint_state_publisher. Joint state publisher is one of the ROS packages that is commonly used to interact with each joint of the robot. The package contains the joint_state_publisher node, which will find the nonfixed joints from the URDF model and publish the joint state values of each joint in the sensor_msgs/JointState message format.
 
 # Steps
+I've followed this [Tutorial](https://www.youtube.com/playlist?list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12) to complete the task. 
+> [!NOTE]
+> You might face the same problems I've faced. so sheck the "Troubleshooting" section here in readme. 
 
 ### Install ROS and Necessary Packages
 I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-ROS2). Check and follow it if you have not done it yet. 
@@ -32,7 +35,7 @@ Define your robot arm in a URDF (Unified Robot Description Format) file. This fi
 > While using SolidWorks assembly it is important not to setting limits to the joints and links, otherwise, errors will raise.
 
 
-# Problems
+# Troubleshooting
 
 <img src= "https://github.com/user-attachments/assets/a13d533e-05dd-40aa-9188-3922e739d957" alt= "img" width = 1000>
 
