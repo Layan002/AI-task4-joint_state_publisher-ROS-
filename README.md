@@ -6,6 +6,19 @@ I've followed this [Tutorial](https://www.youtube.com/playlist?list=PLeEzO_sX5H6
 > [!NOTE]
 > You might face the same problems I've faced. so check the "Troubleshooting" section here in readme. 
 
+### Create a URDF Model for the Robot Arm 
+Define your robot arm in a URDF (Unified Robot Description Format) file. This file describes the physical properties of the robot, including joints and links.
+> [!NOTE]
+> URDF (Unified Robot Description Format) is an XML format used in ROS (Robot Operating System) to describe the physical configuration of a robot. It includes details about the robot's joints, links, sensors, actuators, and other physical properties. URDF files are essential for simulating and visualizing robots in ROS and for controlling robot movements in real environments.
+
+
+> [!IMPORTANT]
+> I will convert SolidWorks assembly to URDF
+
+> [!NOTE]
+> While using SolidWorks assembly it is important not to setting limits to the joints and links, otherwise, errors will raise.
+
+
 ### Install ROS and Necessary Packages
 I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-ROS2). Check and follow it if you have not done it yet. 
 
@@ -21,18 +34,6 @@ source devel/setup.bash
 > A catkin workspace is a directory in the Robot Operating System (ROS) where you can build, develop, and manage your ROS packages. Catkin is the official build system of ROS, and it is used to compile and link ROS packages.
 
 <img src= "https://github.com/user-attachments/assets/64a55aed-4a21-4a2f-91dd-fa4a3ff6e29d" alt= "img" width = 800>
-
-### Create a URDF Model for the Robot Arm 
-Define your robot arm in a URDF (Unified Robot Description Format) file. This file describes the physical properties of the robot, including joints and links.
-> [!NOTE]
-> URDF (Unified Robot Description Format) is an XML format used in ROS (Robot Operating System) to describe the physical configuration of a robot. It includes details about the robot's joints, links, sensors, actuators, and other physical properties. URDF files are essential for simulating and visualizing robots in ROS and for controlling robot movements in real environments.
-
-
-> [!IMPORTANT]
-> I will convert SolidWorks assembly to URDF
-
-> [!NOTE]
-> While using SolidWorks assembly it is important not to setting limits to the joints and links, otherwise, errors will raise.
 
 
 # Troubleshooting
