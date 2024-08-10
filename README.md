@@ -12,6 +12,10 @@ Define your robot arm in a URDF (Unified Robot Description Format) file. This fi
 > URDF (Unified Robot Description Format) is an XML format used in ROS (Robot Operating System) to describe the physical configuration of a robot. It includes details about the robot's joints, links, sensors, actuators, and other physical properties. URDF files are essential for simulating and visualizing robots in ROS and for controlling robot movements in real environments.
 
 
+https://github.com/user-attachments/assets/1b23e3e0-9724-4709-833a-efb4b2334a37
+
+
+
 > [!IMPORTANT]
 > I will convert SolidWorks assembly to URDF
 
@@ -51,6 +55,8 @@ To solve this problem I've changed the sketch plane to the "top" of the assembly
 Follow the steps I've done in the video below and the URDF export process will work correctly. <br>
 
 https://github.com/user-attachments/assets/ab4b39e4-1e8c-472a-ae8e-a443339fd054
+
+
 
 
 
