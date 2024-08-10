@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/1b23e3e0-9724-4709-833a-efb4b2334a37
 
 
 ### Install ROS and Necessary Packages
-I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-ROS2). Check and follow it if you have not done it yet. 
+I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-Ubunto-and-ROS). Check and follow it if you have not done it yet. 
 
 ### Set Up Your Workspace
 - Update and upgrade the system
