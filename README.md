@@ -4,7 +4,7 @@ This task is to control the robot arm using ROS1 joint_state_publisher. Joint st
 # Steps
 I've followed this [Tutorial](https://www.youtube.com/playlist?list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12) to complete the task. 
 > [!NOTE]
-> You might face the same problems I've faced. so sheck the "Troubleshooting" section here in readme. 
+> You might face the same problems I've faced. so check the "Troubleshooting" section here in readme. 
 
 ### Install ROS and Necessary Packages
 I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-ROS2). Check and follow it if you have not done it yet. 
