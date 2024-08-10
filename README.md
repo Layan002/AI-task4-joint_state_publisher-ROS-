@@ -3,6 +3,8 @@ This task is to control the robot arm using ROS1 joint_state_publisher. Joint st
 
 # Steps
 I've followed this [Tutorial](https://www.youtube.com/playlist?list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12) to complete the task. 
+and also I was using this [documentation](https://github.com/user-attachments/files/16569456/Importing_URDF_Package_from_Soloidworks_in_ROS.pdf) for commands. 
+
 > [!NOTE]
 > You might face the same problems I've faced. so check the "Troubleshooting" section here in readme. 
 
@@ -117,7 +119,20 @@ If you are not in your catkin workspace, then give full path:
 source ~/moveit_ws/devel/setup.bash
 ```
 
-
+- Copy robot_arm_urdf and paste it inside src of the moveit_ws
+- Open "Cmake.txt" file and copy paste the following inside it:
+```
+COMPONENTS
+ message_generation
+roscpp
+rospy
+std_msgs
+geometry_msgs
+urdf
+xacro
+message_generation
+```
+<img src= "https://github.com/user-attachments/assets/fe07e30e-6a8d-4783-8e52-eb36f40157b7" alt= "img" width = 400>
 
 
 
