@@ -8,7 +8,7 @@ and also I was using this [documentation](https://github.com/user-attachments/fi
 > [!NOTE]
 > You might face the same problems I've faced. so check the "Troubleshooting" section here in readme. 
 
-### Create a URDF Model for the Robot Arm 
+### Exporting URDF model from SolidWorks
 Define your robot arm in a URDF (Unified Robot Description Format) file. This file describes the physical properties of the robot, including joints and links.
 > [!NOTE]
 > URDF (Unified Robot Description Format) is an XML format used in ROS (Robot Operating System) to describe the physical configuration of a robot. It includes details about the robot's joints, links, sensors, actuators, and other physical properties. URDF files are essential for simulating and visualizing robots in ROS and for controlling robot movements in real environments.
