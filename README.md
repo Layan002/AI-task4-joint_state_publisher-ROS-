@@ -143,7 +143,7 @@ std_msgs
 ```
 <img src= "https://github.com/user-attachments/assets/05bbd361-c40d-43d7-bd85-89409c623fca" alt= "img" width = 500>
 
-- Edit "peckage.xml" file.
+#### Edit "peckage.xml" file.
 ``` XML
  <build_depend>message_generation</build_depend>
  <build_depend>roscpp</build_depend>
@@ -180,6 +180,37 @@ std_msgs
 <img src= "https://github.com/user-attachments/assets/93ff96c3-2ddf-4cd9-b1d6-8c29210802c6" alt= "img" width = 500>
 
 #### Configure URDF File Generated from SOLIDWORKS for ROS, Gazebo & Moveit Setup Assistant
+- In "robot_arm_urdf.urdf" check the lower and upper values for all joints. they should be logically correct. 
+<img src= "https://github.com/user-attachments/assets/ba5e3fbe-cea8-4b24-b667-0c60ce69e156" alt= "img" width = 500>
+
+- Add this command between last joint and robot tags. In addition, change n to numbers from 1-7 (repeat it for all links from 1-7):
+``` URDF
+ <transmission name="link_n_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_n">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link_n_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+         <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+ </transmission>
+```
+- Add this command between last transmition and robot tags:
+``` URDF
+<gazebo>
+      <plugin name="control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/</robotNamespace>
+      </plugin>
+ </gazebo>
+```
+
+- Add this command between last transmition and robot tags. Change n to numbers from 1-7 (repeat it for all links from 1-7):
+```
+<gazebo reference="link_n">
+     <selfCollide>true</selfCollide>
+</gazebo>
+```
 
 # Troubleshooting
 
