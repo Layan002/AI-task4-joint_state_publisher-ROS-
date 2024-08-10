@@ -39,8 +39,6 @@ Define your robot arm in a URDF (Unified Robot Description Format) file. This fi
 
 ### Export URDF is not found
 You can find it in Tool tap >> (scroll down). <br>
-<img src= "https://github.com/user-attachments/assets/d5005c91-2250-4e51-bd17-0dd0be3dea9a" alt= "img" width = 1000>
-
 
 ### Scetch Reference not found
 <img src= "https://github.com/user-attachments/assets/a13d533e-05dd-40aa-9188-3922e739d957" alt= "img" width = 1000>
