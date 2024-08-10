@@ -206,7 +206,7 @@ std_msgs
 ```
 
 - Add this command between last transmition and robot tags. Change n to numbers from 1-7 (repeat it for all links from 1-7):
-```
+``` URDF
 <gazebo reference="link_n">
      <selfCollide>true</selfCollide>
 </gazebo>
