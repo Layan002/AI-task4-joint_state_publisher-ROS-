@@ -38,8 +38,6 @@ sudo apt upgrade
 
 
 #### Installing catkin peckage:
-> [!NOTE]
-> A catkin workspace is a directory in the Robot Operating System (ROS) where you can build, develop, and manage your ROS packages. Catkin is the official build system of ROS, and it is used to compile and link ROS packages.
 
 ```
 sudo apt-get install ros-noetic-catkin
@@ -65,6 +63,10 @@ sudo apt-get install python3-catkin-tools
 ```
 
 - Create a catkin workspace if you don't have one already.
+  
+> [!NOTE]
+> A catkin workspace is a directory in the Robot Operating System (ROS) where you can build, develop, and manage your ROS packages. Catkin is the official build system of ROS, and it is used to compile and link ROS packages.
+
 - Update your Ubuntu packages
 ```
 sudo apt-get update
