@@ -144,7 +144,7 @@ std_msgs
 <img src= "https://github.com/user-attachments/assets/05bbd361-c40d-43d7-bd85-89409c623fca" alt= "img" width = 500>
 
 - Edit "peckage.xml" file.
-```
+``` XML
  <build_depend>message_generation</build_depend>
  <build_depend>roscpp</build_depend>
  <build_depend>rospy</build_depend>
@@ -156,11 +156,11 @@ std_msgs
  <build_depend>message_generation</build_depend>
 ```
 
-```
+``` XML
 <depend>joint_state_publisher</depend>
 ```
 
-```
+``` XML
  <depend>moveit_simple_controller_manager</depend>
  <build_export_depend>roscpp</build_export_depend>
  <build_export_depend>rospy</build_export_depend>
