@@ -41,6 +41,7 @@ To solve this problem I've changed the sketch plane to the "top" of the assembly
 > If you did as what the tutorial instructor did you may encounter the same problem I've faced. 
 
 Follow the steps I've done in the video below and the URDF export process will work correctly. <br>
+
 https://github.com/user-attachments/assets/ab4b39e4-1e8c-472a-ae8e-a443339fd054
 
 
