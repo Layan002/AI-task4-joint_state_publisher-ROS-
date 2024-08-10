@@ -21,6 +21,8 @@ https://github.com/user-attachments/assets/1b23e3e0-9724-4709-833a-efb4b2334a37
 
 > [!NOTE]
 > While using SolidWorks assembly it is important NOT changing the joints and links limits after subpressing the mates, otherwise, errors will raise.
+> [!CAUTION]
+> Chaeck how I put the first part "Base" here : 
 
 
 ### Install ROS and Necessary Packages
