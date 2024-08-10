@@ -36,3 +36,12 @@ Define your robot arm in a URDF (Unified Robot Description Format) file. This fi
 
 <img src= "https://github.com/user-attachments/assets/a13d533e-05dd-40aa-9188-3922e739d957" alt= "img" width = 1000>
 
+To solve this problem I've changed the sketch plane to the "top" of the assembly. 
+> [!CAUTION]
+> If you did as what the tutorial instructor did you may encounter the same problem I've faced. 
+
+Follow the steps I've done in the video below and the URDF export process will work correctly. <br>
+https://github.com/user-attachments/assets/ab4b39e4-1e8c-472a-ae8e-a443339fd054
+
+
+
