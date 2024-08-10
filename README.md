@@ -132,9 +132,54 @@ urdf
 xacro
 message_generation
 ```
-<img src= "https://github.com/user-attachments/assets/fe07e30e-6a8d-4783-8e52-eb36f40157b7" alt= "img" width = 400>
+<img src= "https://github.com/user-attachments/assets/fe07e30e-6a8d-4783-8e52-eb36f40157b7" alt= "img" width = 500>
 
+```
+CATKIN_DEPENDS
+ geometry_msgs
+roscpp
+rospy
+std_msgs
+```
+<img src= "https://github.com/user-attachments/assets/05bbd361-c40d-43d7-bd85-89409c623fca" alt= "img" width = 500>
 
+- Edit "peckage.xml" file.
+```
+ <build_depend>message_generation</build_depend>
+ <build_depend>roscpp</build_depend>
+ <build_depend>rospy</build_depend>
+ <build_depend>std_msgs</build_depend>
+ <build_depend>geometry_msgs</build_depend>
+ <build_depend>urdf</build_depend>
+ <build_depend>xacro</build_depend>
+ <build_depend>std_msgs</build_depend>
+ <build_depend>message_generation</build_depend>
+```
+
+```
+<depend>joint_state_publisher</depend>
+```
+
+```
+ <depend>moveit_simple_controller_manager</depend>
+ <build_export_depend>roscpp</build_export_depend>
+ <build_export_depend>rospy</build_export_depend>
+ <build_export_depend>std_msgs</build_export_depend>
+ <build_export_depend>geometry_msgs</build_export_depend>
+ <build_export_depend>urdf</build_export_depend>
+ <build_export_depend>xacro</build_export_depend>
+ <exec_depend>roscpp</exec_depend>
+ <exec_depend>rospy</exec_depend>
+ <exec_depend>std_msgs</exec_depend>
+ <exec_depend>geometry_msgs</exec_depend>
+ <exec_depend>urdf</exec_depend>
+ <exec_depend>xacro</exec_depend>
+ <exec_depend>message_runtime</exec_depend>
+```
+
+<img src= "https://github.com/user-attachments/assets/93ff96c3-2ddf-4cd9-b1d6-8c29210802c6" alt= "img" width = 500>
+
+#### Configure URDF File Generated from SOLIDWORKS for ROS, Gazebo & Moveit Setup Assistant
 
 # Troubleshooting
 
