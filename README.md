@@ -34,5 +34,5 @@ Define your robot arm in a URDF (Unified Robot Description Format) file. This fi
 
 # Problems
 
-<img src= "https://github.com/user-attachments/assets/a13d533e-05dd-40aa-9188-3922e739d957" alt= "img" width = 800>
+<img src= "https://github.com/user-attachments/assets/a13d533e-05dd-40aa-9188-3922e739d957" alt= "img" width = 1000>
 
