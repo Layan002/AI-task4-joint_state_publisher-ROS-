@@ -24,8 +24,15 @@ Define your robot arm in a URDF (Unified Robot Description Format) file. This fi
 > [!NOTE]
 > URDF (Unified Robot Description Format) is an XML format used in ROS (Robot Operating System) to describe the physical configuration of a robot. It includes details about the robot's joints, links, sensors, actuators, and other physical properties. URDF files are essential for simulating and visualizing robots in ROS and for controlling robot movements in real environments.
 
+
 > [!IMPORTANT]
 > I will convert SolidWorks assembly to URDF
 
 > [!NOTE]
-> While using SolidWorks assembly it is important not to setting limits to the joints and links, otherwise, errors will raise. 
+> While using SolidWorks assembly it is important not to setting limits to the joints and links, otherwise, errors will raise.
+
+
+# Problems
+
+<img src= "https://github.com/user-attachments/assets/a13d533e-05dd-40aa-9188-3922e739d957" alt= "img" width = 800>
+
