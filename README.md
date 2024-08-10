@@ -30,13 +30,80 @@ https://github.com/user-attachments/assets/1b23e3e0-9724-4709-833a-efb4b2334a37
 I did this step in this [Link](https://github.com/Layan002/AI-Task1-Installing-ROS2). Check and follow it if you have not done it yet. 
 
 ### Set Up Your Workspace
-- Create a catkin workspace if you don't have one already.
-``` LINUX
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
-catkin_make
-source devel/setup.bash
+- Update and upgrade the system
 ```
+sudo apt update
+sudo apt upgrade
+```
+
+
+#### Installing catkin peckage:
+```
+sudo apt-get install ros-noetic-catkin
+```
+> [!NOTE]
+> Replace noetic with the version of ROS you are using if it differs.
+
+- Source the ROS Setup File
+```
+source /opt/ros/noetic/setup.bash
+```
+
+- Verify Your ROS Installation (Make sure ROS is properly installed and working by checking the version):
+```
+rosversion -d
+```
+If this returns a valid ROS version like the output below, your installation is fine.<br>
+<img src= "https://github.com/user-attachments/assets/be2a0413-bd4e-4022-9826-6c577de462e3" alt= "img" width = 400>
+
+-  Install catkin_tools (If you're planning to use catkin_tools, you can install it with):
+```
+sudo apt-get install python3-catkin-tools
+```
+
+- Create a catkin workspace if you don't have one already.
+- Update your Ubuntu packages
+```
+sudo apt-get update
+```
+- Go to home directory
+```
+cd ~/
+```
+- Create a catkin workspace folder along with src folder in it. I am creating a workspace with 
+name “moveit_ws”.
+```
+mkdir --parents moveit_ws/src 
+```
+> [!NOTE]
+> You can use any name for your workspace like “catkin_ws”. 
+- Go to the catkin workspace you created. 
+```
+cd moveit_ws
+```
+- Initialize the Catkin workspace 
+```
+ catkin init
+```
+- Go to the catkin workspace directory that you created if not already in it.
+```
+ cd ~/moveit_ws
+```
+- Build your workspace. 
+```
+ catkin build 
+```
+- Source the “setup.bash” file automatically generated in your catkin workspace’s “devel” folder 
+If you are already in your catkin workspace:
+```
+ source devel/setup.bash
+```
+If you are not in your catkin workspace, then give full path:
+```
+source ~/moveit_ws/devel/setup.bash
+```
+
+
 > [!NOTE]
 > A catkin workspace is a directory in the Robot Operating System (ROS) where you can build, develop, and manage your ROS packages. Catkin is the official build system of ROS, and it is used to compile and link ROS packages.
 
