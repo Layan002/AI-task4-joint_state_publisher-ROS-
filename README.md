@@ -183,6 +183,18 @@ std_msgs
 - In "robot_arm_urdf.urdf" check the lower and upper values for all joints. they should be logically correct. 
 <img src= "https://github.com/user-attachments/assets/ba5e3fbe-cea8-4b24-b667-0c60ce69e156" alt= "img" width = 500>
 
+- Add the following to under the name= "robot_arm_urdf">
+  
+``` URDF
+
+<link name="world"/>
+<joint name="base_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.17"/>
+</joint>
+
+```
 - Add this command between last joint and robot tags. In addition, change n to numbers from 1-7 (repeat it for all links from 1-7):
 ``` URDF
  <transmission name="link_n_trans">
