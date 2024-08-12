@@ -8,6 +8,10 @@ Planning Group: In MoveIt, a planning group is created, representing the set of 
 # Demo
 
 
+https://github.com/user-attachments/assets/f13a3c4f-5d91-4cd2-ae71-65425a57a74b
+
+
+
 # Steps
 I've followed this [Tutorial](https://www.youtube.com/playlist?list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12) to complete the task. 
 
