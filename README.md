@@ -1,5 +1,12 @@
 # About? 
-This task is to control the robot arm using ROS1 joint_state_publisher. Joint state publisher is one of the ROS packages that is commonly used to interact with each joint of the robot. The package contains the joint_state_publisher node, which will find the nonfixed joints from the URDF model and publish the joint state values of each joint in the sensor_msgs/JointState message format.
+This task is to control the robot arm using ROS1 joint_state_publisher and controlling the robot arm by Moveit and kinematics. Joint state publisher is one of the ROS packages that is commonly used to interact with each joint of the robot. The package contains the joint_state_publisher node, which will find the nonfixed joints from the URDF model and publish the joint state values of each joint in the sensor_msgs/JointState message format.
+
+MoveIt Configuration: First, the robot's URDF (Unified Robot Description Format) model is configured in MoveIt using the MoveIt Setup Assistant. This involves defining the robot's joints, links, and end effectors.
+
+Planning Group: In MoveIt, a planning group is created, representing the set of joints and links you want to control together. For a robot arm, this typically includes all the joints from the base to the end effector.
+
+# Demo
+
 
 # Steps
 I've followed this [Tutorial](https://www.youtube.com/playlist?list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12) to complete the task. 
@@ -227,6 +234,9 @@ std_msgs
 <img src= "https://github.com/user-attachments/assets/b0d42be8-a3d8-42a4-aabb-022bb1513d92" alt= "img" width = 500>
 
 <img src= "https://github.com/user-attachments/assets/73a1908e-b38e-4af5-94d0-b0784ff834e1" alt= "img" width = 500>
+
+
+since the instruction is very long I just recommend you to follow the youtube tutorial instead of following my gitHub so I will stop here. 
 
 
 # Troubleshooting
